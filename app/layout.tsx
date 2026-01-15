@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${inter.variable} ${cormorantGaramond.variable} antialiased`}
       >
         <Theme accentColor="amber" radius="full">
-          {children} <ThemePanel />
+          {children}
         </Theme>
       </body>
     </html>
