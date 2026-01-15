@@ -17,7 +17,6 @@ export default function Home() {
       <Image
         style={{ objectFit: "cover", zIndex: -1, opacity: 0.6 }}
         src={CircusTent}
-        priority
         fill
         alt="Circus Tent"
         preload={true}
