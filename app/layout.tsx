@@ -3,7 +3,7 @@ import "@radix-ui/themes/styles.css";
 import "./globals.css";
 
 import { Theme, ThemePanel, Container } from "@radix-ui/themes";
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import { Inter, Cormorant_Garamond, Sancreek } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,9 +11,10 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const cormorantGaramond = Cormorant_Garamond({
+const cormorantGaramond = Sancreek({
   subsets: ["latin"],
   display: "swap",
+  weight: "400",
   variable: "--font-cormorant",
 });
 
